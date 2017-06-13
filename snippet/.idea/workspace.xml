@@ -40,12 +40,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnclosingLocalInnerClassContainer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnclosingLocalInnerClassContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EnclosingLocalInnerClassContainer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThreadA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadSharedMemory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadSharedMemory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +138,9 @@
         <option value="$PROJECT_DIR$/src/EnclosingInnerClassContainer.java" />
         <option value="$PROJECT_DIR$/src/InterfaceWithStaticNestedClass.java" />
         <option value="$PROJECT_DIR$/src/EnclosingLocalInnerClassContainer.java" />
+        <option value="$PROJECT_DIR$/src/ThreadSharedMemory.java" />
+        <option value="$PROJECT_DIR$/src/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/ThreadA.java" />
       </list>
     </option>
   </component>
@@ -487,6 +529,39 @@
         <state relative-caret-position="399">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadSharedMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
