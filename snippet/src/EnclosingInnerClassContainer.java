@@ -1,14 +1,16 @@
 import java.util.LinkedList;
 
-public class EnclosingClassContainer {
+public class EnclosingInnerClassContainer {
     LinkedList<InnerClassItem> list;
+    static int lastId = 0;
 
     {
         list = new LinkedList<>();
     }
 
     void add(int id, String name, String property) {
-        list.add(new InnerClassItem(id, name, property));
+        list.add(new InnerClassItem(name, property));
+        lastId++;
     }
 
     void remove(int id) {
@@ -23,13 +25,14 @@ public class EnclosingClassContainer {
         return null;
     }
 
+    // EnclosingInnerClassContainer.InnerClassItem item = container.new InnerClassItem(name, property);
     public class InnerClassItem {
         int id;
         String name;
         String property;
 
-        InnerClassItem(int id, String name, String property) {
-            this.id = id;
+        InnerClassItem(String name, String property) {
+            this.id = lastId;
             this.name = name;
             this.property = property;
         }
