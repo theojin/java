@@ -7,7 +7,7 @@ public class Table {
     JTable table;
 
     Table() {
-        model = new DefaultTableModel(columnNames, 0)
+        model = new DefaultTableModel(columnNames, 0);
         table = new JTable(model);
     }
 
